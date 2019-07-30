@@ -5,7 +5,7 @@ let bodyParser = require('body-parser');
 let cfenv = require('cfenv');
 
 // create express instance
-let oApp = express();
+let oApp = express(); 
 
 // Cloud Foundry environment variables
 let oAppEnv = cfenv.getAppEnv();
