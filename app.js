@@ -6,7 +6,7 @@ let cfenv = require('cfenv');
 
 // create express instance
 let oApp = express();
-
+let a = 1;
 // Cloud Foundry environment variables
 let oAppEnv = cfenv.getAppEnv();
 
