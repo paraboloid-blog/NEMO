@@ -1,0 +1,23 @@
+{
+  "name": "hcp-cf-nemo-rgw",
+  "version": "0.0.1",
+  "homepage": "https://github.com/pfefferf/hcp-cf-nemo-t01",
+  "author": {
+    "name": "Reinhard Winkler",
+    "email": "reinhard.winkler@protonmail.ch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pfefferf/hcp-cf-nemo-t01.git"
+  },
+  "engines": {
+    "node": "11.13.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cfenv": "^1.0.3",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.10",
+    "path": "^0.12.7"
+  }
+}

@@ -1,0 +1,7 @@
+cf api https://api.cf.eu10.hana.ondemand.com
+cf login
+cf buildpacks
+cf marketplace
+cf create-service mongodb v4.0-dev mongodb-nemo-t01-service
+cf services
+cf push
